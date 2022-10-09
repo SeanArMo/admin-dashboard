@@ -1,0 +1,211 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template: repeat(20, 5%)/repeat(20, 5%);
+}
+
+.header-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    color: white;
+    justify-content:center;
+    padding: 10px;
+}
+
+.sidebar{
+    background-color: #9333ea;
+    grid-column: 1/4;
+    grid-row: 1/21;
+}
+
+.svg {
+    filter: invert(100%);
+    display: inline;
+}
+
+.sidebar p {
+    display: inline;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 30px;
+}
+
+.sidebar-options {
+    padding: 10px;
+}
+
+.extra-padding-top {
+    padding-top: 75px;
+}
+
+.header {
+    background-color: #c084fc;
+    grid-column: 4/21;
+    grid-row: 1/5;
+}
+
+.searchbar {
+    margin-top: 5px;
+    display: inline-block;
+    width: 900px;
+    height: 25px;
+    background-color: #474747;
+    border: solid 5px #474747;
+    border-radius: 25px;
+}
+
+.search {
+    display: inline;
+    padding: 25px;
+}
+
+.round {
+    display: inline-block;
+    border-radius: 100px;
+}
+
+.small {
+    width: 50px;
+    height: 50px;
+    padding: 25px;
+}
+
+.extra-left-padding {
+    padding-left: 200px
+}
+
+.top-row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+}
+
+.name {
+    display: inline;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.bottom-row {
+    display: flex;
+    height: 70%;
+    width: 100%;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.welcome p:first-child {
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.bigger {
+    font-size: 30px;
+    padding: 0;
+}
+
+.btn {
+    display: flex;
+    flex-flow: column;
+    height: 30px;
+    width: 75px;
+    background-color: blueviolet;
+    border-radius: 25px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: 200px;
+}
+
+.btn p {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.welcome:first-child{
+    display: inline-block;
+}
+
+.bottom-row img {
+    margin-left: 100px;
+    margin-right: 20px;
+}
+
+.content {
+    display: grid;
+    grid-column: 4/21;
+    grid-row: 5/21;
+    grid-template: repeat(10, 10%)/repeat(10, 10%);
+    background-color: #581c87;
+}
+
+.small-header-text {
+    margin: 20px;
+    margin-bottom: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: white;
+    justify-content:center;
+}
+
+.projects {
+    display: grid;
+    grid-column: 1/11;
+    grid-row: 2/11;
+    grid-template: repeat(10, 10%)/repeat(10, 10%);
+    grid-gap: 30px;
+    margin-left: 75px;
+    margin-top: 40px;
+}
+
+.project {
+    background-color: #f9edff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    border-radius: 25px;
+    grid-column: span 4;
+    grid-row: span 3;
+    color:#747272;
+    border: 5px solid #d08ff3;
+}
+
+.project p {
+    padding: 30px;
+    padding-top: 0;
+    margin: 0;
+}
+
+p.project-header {
+    font-size: 20px;
+    color: #2b2b2b;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.left {
+    display: inline-block;
+    margin-left: 575px;
+}
